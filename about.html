@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>마포 셔츠룸 정보 | 성우이벤트 가격 & 후기</title>
+    <meta name="description" content="마포 셔츠룸 성우이벤트 정보 총정리. 홍대 셔츠룸 가격, 시스템, 자주 묻는 질문까지. 형들이 직접 경험한 찐 후기 공개!">
+    <meta name="keywords" content="마포 셔츠룸, 성우이벤트, 홍대 셔츠룸, 셔츠룸추천, 마포구셔츠룸, 셔츠룸가격, 성우이벤트셔츠룸, 셔츠룸정보">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://sf-t3-1779642675702-268.vercel.app/info">
+    <meta property="og:title" content="마포 셔츠룸 | 성우이벤트 찐 정보">
+    <meta property="og:description" content="마포 셔츠룸 성우이벤트, 궁금한 거 다 물어봐. 가격부터 시스템까지, 형들이 다 알려줄게!">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://sf-t3-1779642675702-268.vercel.app/info">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html {
+            scroll-behavior: smooth;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #f5f0eb;
+            color: #1a1a1a;
+            line-height: 1.6;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+        :root {
+            --accent: #d4a373;
+            --accent-dark: #bc8a5f;
+            --bg-dark: #2c2c2c;
+            --text-light: #f0ece4;
+            --brutal-shadow: 6px 6px 0px rgba(0,0,0,0.2);
+            --brutal-border: 3px solid #1a1a1a;
+        }
+        h1, h2, h3, h4 {
+            font-weight: 800;
+            line-height: 1.2;
+            text-transform: uppercase;
+            letter-spacing: -0.02em;
+        }
+        h1 {
+            font-size: clamp(2.2rem, 7vw, 4rem);
+            margin-bottom: 0.5rem;
+        }
+        h2 {
+            font-size: clamp(1.6rem, 4vw, 2.6rem);
+            margin-bottom: 1.5rem;
+            border-left: 8px solid var(--accent);
+            padding-left: 1rem;
+        }
+        h3 {
+            font-size: clamp(1.2rem, 3vw, 1.8rem);
+            margin-bottom: 0.8rem;
+        }
+        p {
+            margin-bottom: 1.2rem;
+            font-size: 1.05rem;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        header {
+            background: var(--bg-dark);
+            color: var(--text-light);
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            border-bottom: var(--brutal-border);
+        }
+        header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            font-size: 1.6rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: -0.03em;
+        }
+        .logo span {
+            color: var(--accent);
+        }
+        nav {
+            display: flex;
+            gap: 1.2rem;
+            align-items: center;
+        }
+        nav a {
+            font-weight: 700;
+            font-size: 0.95rem;
+            text-transform: uppercase;
+            padding: 0.4rem 0.8rem;
+            border: 2px solid transparent;
+            transition: 0.2s;
+        }
+        nav a:hover {
+            border-color: var(--accent);
+            color: var(--accent);
+        }
+        .tel-link {
+            background: var(--accent);
+            color: #1a1a1a !important;
+            padding: 0.5rem 1.2rem;
+            font-weight: 800;
+            border: var(--brutal-border);
+            box-shadow: var(--brutal-shadow);
+            font-size: 1.1rem;
+        }
+        .tel-link:hover {
+            background: var(--accent-dark);
+            transform: translate(-2px, -2px);
+            box-shadow: 8px 8px 0px rgba(0,0,0,0.2);
+        }
+        @media (max-width: 768px) {
+            header .container {
+                flex-wrap: wrap;
+            }
+            nav {
+                width: 100%;
+                justify-content: center;
+                padding-top: 0.8rem;
+                flex-wrap: wrap;
+                gap: 0.6rem;
+            }
+            nav a {
+                font-size: 0.8rem;
+                padding: 0.3rem 0.6rem;
+            }
+            .tel-link {
+                font-size: 1rem;
+                padding: 0.4rem 1rem;
+            }
+        }
+        /* info page specific styles */
+        .info-hero {
+            background: var(--bg-dark);
+            color: var(--text-light);
+            padding: 4rem 0 3rem;
+            text-align: center;
+            border-bottom: var(--brutal-border);
+            margin-bottom: 3rem;
+        }
+        .info-hero h1 {
+            margin-bottom: 0.3rem;
+        }
+        .info-hero p {
+            font-size: 1.2rem;
+            opacity: 0.85;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .info-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+            margin-bottom: 3rem;
+        }
+        .info-card {
+            background: white;
+            border: var(--brutal-border);
+            box-shadow: var(--brutal-shadow);
+            padding: 2rem;
+        }
+        .info-card h3 {
+            border-bottom: 4px solid var(--accent);
+            padding-bottom: 0.5rem;
+            margin-bottom: 1rem;
+        }
+        .info-card ul {
+            list-style: none;
+            padding: 0;
+        }
+        .info-card li {
+            padding: 0.6rem 0;
+            border-bottom: 1px dashed #ddd;
+            font-size: 1rem;
+        }
+        .info-card li:last-child {
+            border-bottom: none;
+        }
+        .info-card li strong {
+            color: var(--accent-dark);
+        }
+        .faq-section {
+            background: white;
+            border: var(--brutal-border);
+            box-shadow: var(--brutal-shadow);
+            padding: 2.5rem;
+            margin-bottom: 3rem;
+        }
+        .faq-item {
+            border-bottom: 2px solid #eee;
+            padding: 1.2rem 0;
+        }
+        .faq-item:last-child {
+            border-bottom: none;
+        }
+        .faq-item h4 {
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+            color: var(--bg-dark);
+        }
+        .faq-item p {
+            margin-bottom: 0;
+            font-size: 0.98rem;
+            color: #444;
+        }
+        .cta-section {
+            text-align: center;
+            padding: 3rem 0;
+            background: var(--bg-dark);
+            color: var(--text-light);
+            border-top: var(--brutal-border);
+            border-bottom: var(--brutal-border);
+            margin-bottom: 3rem;
+        }
+        .cta-section h2 {
+            border-left: none;
+            padding-left: 0;
+        }
+        .cta-section .tel-link {
+            display: inline-block;
+            margin-top: 1rem;
+            font-size: 1.4rem;
+        }
+        @media (max-width: 768px) {
+            .info-grid {
+                grid-template-columns: 1fr;
+            }
+            .faq-section {
+                padding: 1.5rem;
+            }
+        }
+        footer {
+            background: var(--bg-dark);
+            color: var(--text-light);
+            padding: 2rem 0;
+            text-align: center;
+            font-size: 0.9rem;
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">마포<span>셔츠룸</span></div>
+            <nav>
+                <a href="/">홈</a>
+                <a href="/info">정보</a>
+                <a href="/review">후기</a>
+                <a href="/event">이벤트</a>
+                <a href="tel:010-6279-0862" class="tel-link">📞 전화걸기</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="info-hero">
+        <div class="container">
+            <h1>정보는 🔥 여기 다 있어</h1>
+            <p>마포 셔츠룸 성우이벤트, 궁금한 거 없어? 가격, 시스템, 꿀팁까지 싹 다 공개한다. 형들이 직접 겪고 정리한 찐 정보니까 믿어도 돼.</p>
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="info-grid">
+            <div class="info-card">
+                <h3>💰 가격 & 시스템</h3>
+                <ul>
+                    <li><strong>기본 이용료:</strong> 1시간 기준 15만원 ~ (성우이벤트 포함)</li>
+                    <li><strong>성우이벤트:</strong> 추가 5만원 ~ 10만원 (선택 사항, 찐가성비)</li>
+                    <li><strong>VIP 패키지:</strong> 2시간 30만원 + 서비스 음료 1잔</li>
+                    <li><strong>연장:</strong> 10분당 2만원 (부담 없어)</li>
+                    <li><strong>결제 방식:</strong> 현장 결제 / 카드 가능</li>
+                </ul>
+            </div>
+            <div class="info-card">
+                <h3>🎤 성우이벤트란?</h3>
+                <ul>
+                    <li><strong>프로 성우:</strong> 실제 방송 경험 있는 성우분들이 진행</li>
+                    <li><strong>컨셉 플레이:</strong> 상황극, 역할극, 1:1 대화 가능</li>
+                    <li><strong>시간:</strong> 기본 20분, 연장 가능</li>
+                    <li><strong>추천 포인트:</strong> 지루한 술자리는 NO! 완전 신세계</li>
+                    <li><strong>주의:</strong> 예약 필수! 당일 예약도 가능 (전화 먼저)</li>
+                </ul>
+            </div>
+            <div class="info-card">
+                <h3>📍 위치 & 오시는 길</h3>
+                <ul>
+                    <li><strong>주소:</strong> 서울 마포구 홍대입구역 3번 출구 도보 3분</li>
+                    <li><strong>주차:</strong> 건물 내 주차장 2시간 무료 (발렛 X)</li>
+                    <li><strong>대중교통:</strong> 2호선 홍대입구역, 6호선 상수역</li>
+                    <li><strong>버스:</strong> 마포08, 271, 5712 (홍대입구 정류장 하차)</li>
+                </ul>
+            </div>
+            <div class="info-card">
+                <h3>⏰ 운영 시간</h3>
+                <ul>
+                    <li><strong>평일:</strong> 20:00 ~ 05:00 (마감 1시간 전 입장)</li>
+                    <li><strong>주말/공휴일:</strong> 18:00 ~ 06:00</li>
+                    <li><strong>예약:</strong> 오후 2시부터 전화 예약 가능</li>
+                    <li><strong>픽업:</strong> 홍대입구역 3번 출구에서 픽업 가능 (전화 주세요)</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="faq-section">
+            <h2>자주 묻는 질문 🙋</h2>
+            <div class="faq-item">
+                <h4>Q. 첫 방문인데 괜찮을까요?</h4>
+                <p>A. 당연하지! 형들도 처음엔 긴장했는데, 직원분들이 친절하게 안내해줘서 완전 편하게 즐겼어. 성우이벤트도 처음이면 추천하는 컨셉 알려주니까 부담 NO!</p>
+            </div>
+            <div class="faq-item">
+                <h4>Q. 성우이벤트는 꼭 해야 하나요?</h4>
+                <p>A. 선택 사항이야. 근데 형이 강력 추천함. 그냥 가는 거랑 성우이벤트 추가하는 거랑 분위기가 완전 달라. 한 번 해보면 다음에도 꼭 하게 돼.</p>
+            </div>
+            <div class="faq-item">
+                <h4>Q. 가격대가 어떻게 되나요?</h4>
+                <p>A. 기본 15만원부터 시작하고, 성우이벤트 추가하면 20~25만원 정도 생각하면 돼. 다른 데 비해 가성비 좋다는 게 형들 의견이야. 술값 포함이니까 더 합리적이고.</p>
+            </div>
+            <div class="faq-item">
+                <h4>Q. 예약은 어떻게 하나요?</h4>
+                <p>A. 전화로 바로 예약 가능해! 010-6279-0862로 연락 주면 되고, 당일 예약도 자리 있으면 바로 잡아줘. 주말엔 빨리 차니까 미리 전화하는 게 좋아.</p>
+            </div>
+            <div class="faq-item">
+                <h4>Q. 주차는 어디에 하나요?</h4>
+                <p>A. 건물 지하에 주차장 있어. 2시간 무료니까 차 가져와도 돼. 근데 홍대 주변이 복잡하니까 대중교통 추천할게. 역에서 진짜 가까워!</p>
+            </div>
+        </div>
+
+        <section class="cta-section">
+            <div class="container">
+                <h2>지금 바로 전화해 🔥</h2>
+                <p>궁금한 거 있으면 언제든 전화해. 형들이 다 알려줄게. 예약은 빠를수록 좋아!</p>
+                <a href="tel:010-6279-0862" class="tel-link">📞 010-6279-0862</a>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>마포 셔츠룸 | 성우이벤트 찐 파티 | 홍대 셔츠룸 No.1</p>
+            <p>© 2025 마포셔츠룸 All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
